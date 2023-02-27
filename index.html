@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <linK href="addon/fontawesome/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<!--Nav-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light shadow-sm">
+        <div class="container-fluid container-md">
+            <a class="navbar-brand fw-bold" href="landingpage.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fw-bold">
+                <li class="nav-item ">
+                    <a class="nav-link" aria-current="page" href="#top">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Activities">Activities</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+<!--End Nav-->
+
+<!--Introduction-->
+    <br id="top">
+    <div class="container-md mb-5 mt-5">
+        <div id="row1" class="row mt-3 p-5">
+            <div id="proImg" class="col-md-4">
+                <img  src="img\me2.png" class="img-fluid rounded-circle wm-100">
+            </div>
+            <div class="col-md-8 my-auto order-md-first"><!--offset-md-4 , mx-auto-->
+                <h3 id="tW" class="fst-italic tc">Welcome!</h3>
+                <h2 id="intro"class="fw-bold tYellow">I'm Apirak Chimhiran</h2>
+                <div id="info"class="mb-3 fs-5 mt-3">
+                    I'm a TNI student majoring in Information Technology 2nd year.
+                </div>
+                <div id="con">
+                    <i onclick="window.location.href='https://www.facebook.com/apiruk.chimhirun';" class="fa-brands fa-xl fa-facebook"></i>
+                    <i onclick="window.location.href='https://www.instagram.com/arnut.nut/?hl=en';" class="fa-brands fa-xl fa-instagram ms-2"></i>
+                    <i onclick="window.location.href='https://steamcommunity.com/profiles/76561198095296171/';" class="fa-brands fa-xl fa-steam ms-2"></i>
+                    <i onclick="window.location.href='https://github.com/Emperor13';" class="fa-brands fa-xl fa-github ms-2"></i>
+                </div>
+                <div id="Btn">
+                    <button  onclick = "window.location.href='#aboutme';" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" type="button" class="btn aboutmeBtn yellow mt-3 btn-lg shadow-sm" >About Me</button>
+                </div>
+                <br id="aboutme">
+            </div>
+        </div>
+    </div>
+<!--End Introduction-->
+
+<!--AboutMe-->
+    <div  class="body2 mb-3">
+      <div >
+        <h2 class="text-center tYellow fw-bold py-4">Who am I?</h2>
+      </div>
+      <div class="container-md">
+          <div class="row">
+              <div class="textOrder  col-lg-8 mx-auto mb-3 p-3">
+                  <p class="fs-4 mb-5">I am currently studying at Thai-Nichi Institute of Technology, majoring in Information
+                    Technology (IT). After spending years working on my projects and learning new things, it gave
+                    me valuably experienced I needed to be a better developer.</p>
+                  <p class="fs-4">With my experience as a developer. I have developed applications and websites for my College’s
+                    project. I enjoy every moment while I work on a new project. Especially in developing websites
+                    for both back-end and front-end. I find it quite challenging to design an appearance and write a
+                    script for websites. Nonetheless, I enjoy developing a website the most.</p>
+              </div>
+              <div id="proImg2" class="ImageOrder  col-lg-4 mx-auto mb-3 p-3 order-md-first">
+                    <img  id="fixsize" src="img\me3.jpg" class="img-fluid rounded ">
+              </div>
+              <div class="contactOrder col-md-6 mx-auto p-3">
+                <h4 class="fs-5 text-center"><i class="fa-solid fa-xl fa-envelope"></i> ci.apirak_st@tni.ac.th</h4>       
+              </div>
+              <div class="contactOrder col-md-6 mx-auto p-3">
+                <h4 class="fs-5 text-center"><i class="fa-solid fa-xl fa-phone"></i> 0642152232</h4>   
+              </div>
+          </div>
+          <hr>
+      </div>
+    </div>
+<!--End AboutMe-->
+
+
+<!--Skills-->
+    <div>
+        <h2 class="text-center tYellow fw-bold py-4">Skills</h2>
+    </div>
+    <div class="container-md mb-5">
+        <div class="row">
+            <div class="col-6 col-md-4 col-lg-4 mx-auto skillsIcon">
+              <h3 class="fw-bold ms-5"><i class="fa-brands tYellow fa-lg fa-html5"></i> HTML </h3>
+            </div>
+            <div class="col-6 col-md-4 col-lg-4 mx-auto skillsIcon">
+              <h3 class="fw-bold ms-5"><i class="fa-brands tYellow fa-lg fa-php"></i> PHP </h3>
+            </div>
+            <div class="col-6 col-md-4 col-lg-4 mx-auto skillsIcon">
+              <h3 class="fw-bold ms-5"><i class="fa-brands tYellow fa-lg fa-python"></i> Python </h3>
+            </div>
+            <div class="col-6 col-md-4 col-lg-4 mx-auto skillsIcon">
+              <h3 id="java" class="fw-bold"><i class="fa-brands tYellow fa-lg fa-java"></i> Java </h3>
+            </div>
+            <div class="col-6 col-md-4 col-lg-4 mx-auto skillsIcon">
+              <h3 id="css" class="fw-bold"><i class="fa-brands tYellow fa-lg fa-css3-alt"></i> CSS </h3>
+            </div>
+            <div class="col-6 col-md-4 col-lg-4 mx-auto skillsIcon">
+              <h3 id="sql" class="fw-bold"><i class="fa-solid tYellow fa-lg fa-database"></i> SQL </h3>
+            </div>
+        </div>
+    </div>
+<!--End Skills-->
+
+
+<!--Activities-->
+    <div class="body2">
+      <div id="Activities" class="row py-4">
+          <h2 class="text-center tYellow fw-bold">Activities</h2>
+      </div>
+      
+      <div class="container-md">
+          <div id="row2" class="row">   
+              <div class="col-md-6 col-lg-4 ">
+                  <div class="w-100 mx-auto">
+                      <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="img\bitentropy.png" class="img-fluid rounded image-holder" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img\bitentropy2.png" class="img-fluid rounded image-holder" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img\bitentropy3.png" class="img-fluid rounded image-holder" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                      </div> <!--Carousel1 end-->
+                      <div class="text-center fs-3 fw-bold my-2">
+                          <a href="https://github.com/Emperor13/Bit_Entropy.git">Bit Entropy</a>
+                      </div>
+                      
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                  <div class="w-100 mx-auto">
+                      <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="img\Smart Farm.png" class="img-fluid rounded image-holder" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img\Smart Farm2.png" class="img-fluid rounded image-holder" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img\kaizen6.jpg" class="img-fluid rounded image-holder" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                      </div><!--Carousel2 end-->
+                      <div class="text-center fs-3 fw-bold my-2">
+                          <a href="https://github.com/Emperor13/AutoPlantProject.git">Kaizen Contest</a>
+                      </div>
+                  </div>
+                  
+              </div>
+              <div class="col-md-6 col-lg-4">
+                  <div class="w-100 mx-auto">
+                      <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="img\kaizen5.jpg" class="img-fluid rounded image-holder" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img\kaizen2.jpg" class="img-fluid rounded image-holder" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img\kaizen3.jpg" class="img-fluid rounded image-holder" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img\kaizen.jpg" class="img-fluid rounded image-holder" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                      </div><!--Carousel3 end-->
+                      <div class="text-center fs-3 fw-bold my-2">
+                          <a href="#">Science Festival</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div> 
+<!--End Activities--> 
+    
+<!--Contact-->
+    <div class="container-md">
+      <div id="Contact" class="row py-4">
+        <h2 class="text-center tYellow fw-bold">Contact</h2>
+    </div>
+      <div class="row floatleft">
+        <ul id="conlink" class="child">
+          <li>
+            <h4 id="conlink1" class="fs-5 text-center"><i onclick="window.location.href='https://www.facebook.com/apiruk.chimhirun';" class="fa-brands fa-xl fa-facebook ms-2"></i> Arnut Nut</h4>
+          </li>
+          <li>
+            <h4 id="conlink2" class="fs-5 text-center"><i onclick="window.location.href='https://www.instagram.com/arnut.nut/?hl=en';" class="fa-brands fa-xl fa-instagram ms-2"></i> arnut.nut</h4>
+          </li>
+          <li>
+            <h4 id="conlink3" class="fs-5 text-center"><i onclick="window.location.href='https://github.com/Emperor13';" class="fa-brands fa-xl fa-github ms-2"></i> Emperor13</h4>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+<!--End Contact-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
